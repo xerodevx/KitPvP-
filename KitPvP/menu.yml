@@ -1,0 +1,319 @@
+# MENU FILE - This is where the menu can be completely customized.
+Menu:
+  General:
+    Title: Kits
+    Hide-Items-With-No-Permission: false
+    Size: 54
+  Items:
+    Fighter:
+      Name: '&6&lFighter&f&l Kit'
+      Item: IRON_CHESTPLATE
+      Slot: 10
+      Lore:
+      - '&7&l&m---------------------'
+      - '&6Ability: &f3&6 Health Packs'
+      - '&7&l&m---------------------'
+      - '&6-&f Iron Sword'
+      - '&6-&f Iron Helmet'
+      - '&6-&f Iron Chestplate'
+      - '&6-&f Iron Leggings'
+      - '&6-&f Iron Boots'
+      - '&7&l&m---------------------'
+      - '&6Left-click&f to select.'
+      - '&6Right-click&f to preview.'
+      - '&7&l&m---------------------'
+      Commands:
+        Left-Click:
+        - 'player: kp kit Fighter'
+        Right-Click:
+        - 'player: kp preview Fighter'
+        Enabled: true
+    Archer:
+      Name: '&6&lArcher&f&l Kit'
+      Item: BOW
+      Slot: 11
+      Lore:
+      - '&7&l&m---------------------'
+      - '&6Ability: &f10&6 Fire Arrows'
+      - '&7&l&m---------------------'
+      - '&6-&f Wooden Sword'
+      - '&6-&f Bow'
+      - '&6-&f 32 Arrows'
+      - '&6-&f Leather Helmet'
+      - '&6-&f Chain Chestplate'
+      - '&6-&f Chain Leggings'
+      - '&6-&f Chain Boots'
+      - '&7&l&m---------------------'
+      - '&6Left-click&f to select.'
+      - '&6Right-click&f to preview.'
+      - '&7&l&m---------------------'
+      Commands:
+        Left-Click:
+        - 'player: kp kit Archer'
+        Right-Click:
+        - 'player: kp preview Archer'
+        Enabled: true
+    Tank:
+      Name: '&6&lTank&f&l Kit'
+      Item: DIAMOND
+      Slot: 12
+      Lore:
+      - '&7&l&m---------------------'
+      - '&6Ability: &f3&6 Speed Boosts'
+      - '&7&l&m---------------------'
+      - '&6-&f Wooden Sword'
+      - '&6-&f Diamond Helmet'
+      - '&6-&f Diamond Chestplate'
+      - '&6-&f Diamond Leggings'
+      - '&6-&f Diamond Boots'
+      - '&7&l&m---------------------'
+      - '&6Left-click&f to select.'
+      - '&6Right-click&f to preview.'
+      - '&7&l&m---------------------'
+      Commands:
+        Left-Click:
+        - 'player: kp kit Tank'
+        Right-Click:
+        - 'player: kp preview Tank'
+        Enabled: true
+    Soldier:
+      Name: '&6&lSoldier&f&l Kit'
+      Item: ARROW
+      Slot: 13
+      Lore:
+      - '&7&l&m---------------------'
+      - '&6Ability: &f5&6 Guns'
+      - '&7&l&m---------------------'
+      - '&6-&f Iron Sword'
+      - '&6-&f Bow'
+      - '&6-&f 32 Arrows'
+      - '&6-&f Fishing Rod'
+      - '&6-&f Leather Helmet'
+      - '&6-&f Chain Chestplate'
+      - '&6-&f Leather Leggings'
+      - '&6-&f Leather Boots'
+      - '&7&l&m---------------------'
+      - '&6Left-click&f to select.'
+      - '&6Right-click&f to preview.'
+      - '&7&l&m---------------------'
+      Commands:
+        Left-Click:
+        - 'player: kp kit Soldier'
+        Right-Click:
+        - 'player: kp preview Soldier'
+        Enabled: true
+    Bomber:
+      Name: '&6&lBomber&f&l Kit'
+      Item: TNT
+      Slot: 14
+      Lore:
+      - '&7&l&m---------------------'
+      - '&6Ability: &f3&6 TNT Trails'
+      - '&7&l&m---------------------'
+      - '&6-&f Iron Sword'
+      - '&6-&f 16 TNT'
+      - '&6-&f Leather Helmet'
+      - '&6-&f Leather Chestplate'
+      - '&6-&f Leather Leggings'
+      - '&6-&f Leather Boots'
+      - '&7&l&m---------------------'
+      - '&6Left-click&f to select.'
+      - '&6Right-click&f to preview.'
+      - '&7&l&m---------------------'
+      Commands:
+        Left-Click:
+        - 'player: kp kit Bomber'
+        Right-Click:
+        - 'player: kp preview Bomber'
+        Enabled: true
+    Kangaroo:
+      Name: '&6&lKangaroo&f&l Kit'
+      Item: SADDLE
+      Slot: 15
+      Lore:
+      - '&7&l&m---------------------'
+      - '&6Ability: &f3&6 Launchers'
+      - '&7&l&m---------------------'
+      - '&6-&f Iron Sword'
+      - '&6-&f Leather Helmet'
+      - '&6-&f Leather Chestplate'
+      - '&6-&f Leather Leggings'
+      - '&6-&f Leather Boots'
+      - '&7&l&m---------------------'
+      - '&6Left-click&f to select.'
+      - '&6Right-click&f to preview.'
+      - '&7&l&m---------------------'
+      Commands:
+        Left-Click:
+        - 'player: kp kit Kangaroo'
+        Right-Click:
+        - 'player: kp preview Kangaroo'
+        Enabled: true
+    Warper:
+      Name: '&6&lWarper&f&l Kit'
+      Item: ENDER_PEARL
+      Slot: 16
+      Lore:
+      - '&7&l&m---------------------'
+      - '&6Ability: &f3&6 Teleporters'
+      - '&7&l&m---------------------'
+      - '&6-&f Iron Sword'
+      - '&6-&f 4 Ender Pearls'
+      - '&6-&f Leather Helmet'
+      - '&6-&f Leather Chestplate'
+      - '&6-&f Leather Leggings'
+      - '&6-&f Leather Boots'
+      - '&7&l&m---------------------'
+      - '&6Left-click&f to select.'
+      - '&6Right-click&f to preview.'
+      - '&7&l&m---------------------'
+      Commands:
+        Left-Click:
+        - 'player: kp kit Warper'
+        Right-Click:
+        - 'player: kp preview Warper'
+        Enabled: true
+    Witch:
+      Name: '&6&lWitch&f&l Kit'
+      Item: POTION
+      Slot: 19
+      Lore:
+      - '&7&l&m---------------------'
+      - '&6Ability: &fInfinite&6 Potions'
+      - '&7&l&m---------------------'
+      - '&6-&f Iron Sword'
+      - '&6-&f Leather Helmet'
+      - '&6-&f Leather Chestplate'
+      - '&6-&f Leather Leggings'
+      - '&6-&f Leather Boots'
+      - '&7&l&m---------------------'
+      - '&6Left-click&f to select.'
+      - '&6Right-click&f to preview.'
+      - '&7&l&m---------------------'
+      Commands:
+        Left-Click:
+        - 'player: kp kit Witch'
+        Right-Click:
+        - 'player: kp preview Witch'
+        Enabled: true
+    Ninja:
+      Name: '&6&lNinja&f&l Kit'
+      Item: NETHER_STAR
+      Slot: 20
+      Lore:
+      - '&7&l&m---------------------'
+      - '&6Ability: &f3&6 Vanish Stars'
+      - '&7&l&m---------------------'
+      - '&6-&f Wooden Sword'
+      - '&6-&f Leather Helmet'
+      - '&6-&f Chain Chestplate'
+      - '&6-&f Chain Leggings'
+      - '&6-&f Chain Boots'
+      - '&7&l&m---------------------'
+      - '&6Left-click&f to select.'
+      - '&6Right-click&f to preview.'
+      - '&7&l&m---------------------'
+      Commands:
+        Left-Click:
+        - 'player: kp kit Ninja'
+        Right-Click:
+        - 'player: kp preview Ninja'
+        Enabled: true
+    Thunderbolt:
+      Name: '&6&lThunderbolt&f&l Kit'
+      Item: BLAZE_POWDER
+      Slot: 21
+      Lore:
+      - '&7&l&m---------------------'
+      - '&6Ability: &f3&6 Lightning Strikes'
+      - '&7&l&m---------------------'
+      - '&6-&f Golden Sword'
+      - '&6-&f Leather Helmet'
+      - '&6-&f Golden Chestplate'
+      - '&6-&f Leather Leggings'
+      - '&6-&f Leather Boots'
+      - '&7&l&m---------------------'
+      - '&6Left-click&f to select.'
+      - '&6Right-click&f to preview.'
+      - '&7&l&m---------------------'
+      Commands:
+        Left-Click:
+        - 'player: kp kit Thunderbolt'
+        Right-Click:
+        - 'player: kp preview Thunderbolt'
+        Enabled: true
+    Vampire:
+      Name: '&6&lVampire&f&l Kit'
+      Item: FERMENTED_SPIDER_EYE
+      Slot: 22
+      Lore:
+      - '&7&l&m---------------------'
+      - '&6Ability: &f3&6 Blood Suckers'
+      - '&7&l&m---------------------'
+      - '&6-&f Iron Sword'
+      - '&6-&f Leather Helmet'
+      - '&6-&f Leather Chestplate'
+      - '&6-&f Leather Leggings'
+      - '&6-&f Leather Boots'
+      - '&7&l&m---------------------'
+      - '&6Left-click&f to select.'
+      - '&6Right-click&f to preview.'
+      - '&7&l&m---------------------'
+      Commands:
+        Left-Click:
+        - 'player: kp kit Vampire'
+        Right-Click:
+        - 'player: kp preview Vampire'
+        Enabled: true
+    Rhino:
+      Name: '&6&lRhino&f&l Kit'
+      Item: DIAMOND_HELMET
+      Slot: 23
+      Lore:
+      - '&7&l&m---------------------'
+      - '&6Ability: &f3&6 Rhino Charges'
+      - '&7&l&m---------------------'
+      - '&6-&f Iron Sword'
+      - '&6-&f Diamond Helmet'
+      - '&6-&f Leather Chestplate'
+      - '&6-&f Leather Leggings'
+      - '&6-&f Leather Boots'
+      - '&7&l&m---------------------'
+      - '&6Left-click&f to select.'
+      - '&6Right-click&f to preview.'
+      - '&7&l&m---------------------'
+      Commands:
+        Left-Click:
+        - 'player: kp kit Rhino'
+        Right-Click:
+        - 'player: kp preview Rhino'
+        Enabled: true
+    Trickster:
+      Name: '&6&lTrickster&f&l Kit'
+      Item: EGG
+      Slot: 24
+      Lore:
+      - '&7&l&m---------------------'
+      - '&6Ability: &f4&6 Switcher Pellets'
+      - '&7&l&m---------------------'
+      - '&6-&f Stone Sword'
+      - '&6-&f Leather Helmet'
+      - '&6-&f Diamond Chestplate'
+      - '&6-&f Leather Leggings'
+      - '&6-&f Leather Boots'
+      - '&7&l&m---------------------'
+      - '&6Left-click&f&f to select.'
+      - '&6Right-click&f to preview.'
+      - '&7&l&m---------------------'
+      Commands:
+        Left-Click:
+        - 'player: kp kit Trickster'
+        Right-Click:
+        - 'player: kp preview Trickster'
+        Enabled: true
+    Close:
+      Name: '&6&lClose'
+      Item: BARRIER
+      Slot: 40
+      Lore:
+      - '&fClick to close the Kit Menu.'

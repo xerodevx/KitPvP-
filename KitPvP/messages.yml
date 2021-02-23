@@ -1,0 +1,54 @@
+# MESSAGES FILE - Configure nearly every message in the plugin.
+Messages:
+  General:
+    Prefix: '&7[&6&lKitPvP&7]'
+    Permission: '%prefix% &cYou do not have permission.'
+    Player: '%prefix% &cYou must be a player to perform this action.'
+  Commands:
+    Create: '%prefix% &7The kit &6%kit% &7has successfully been created.'
+    Delete: '%prefix% &7The kit &6%kit% &7has successfully been deleted.'
+    Kit: '%prefix% &7You have selected kit &6%kit%&7.'
+    KitOther: '%prefix% &7Attempting to give &6%player% &7kit &6%kit%&7.'
+    Kits: '%prefix% &6Kits (case-sensitive): &7%kits%'
+    Teleport: '%prefix% &7Teleported you to the spawn.'
+    Teleporting: '%prefix% &7Teleporting, do not move.'
+    Time: '%prefix% &7Teleporting you in &6%time% seconds&7.'
+    Added: '%prefix% &7Successfully set the spawn in arena &6%arena%&7.'
+    Removed: '%prefix% &7Successfully removed the arena &6%arena%&7.'
+    Reload: '%prefix% &7Successfully reloaded the configurations.'
+    Cleared: '%prefix% &7Your kit has been cleared.'
+    ClearedOther: '%prefix% &7You cleared &6%player%''s &7kit.'
+  Other:
+    Needed: '%prefix% &cYou must be Level %level% to use that kit.'
+    Level: '%prefix% &7Congratulations! You are now &6Level %level%&7.'
+    Sign: '%prefix% &7You have successfully created a sign.'
+    Players: '%prefix% &cThere are no other players with a kit online.'
+    NoKit: None
+  Error:
+    Player: '%prefix% &cYou must right-click on a player to activate this ability.'
+    Arena: '%prefix% &cYou are not currently an in arena.'
+    ExistsArena: '%prefix% &cThe specified arena does not exist.'
+    Exists: '%prefix% &cThe specified kit already exists.'
+    Lost: '%prefix% &cKit not found! Remember kit names are case-sensitive!'
+    Arguments: '%prefix% Please specify more arguments in the command.'
+    Kit: '%prefix% &cYou must select a kit before hitting players.'
+    Moved: '%prefix% &cYou moved, teleportation cancelled.'
+    Invincible: '%prefix% &cYou cannot hit that player because they have no kit.'
+    Selected: '%prefix% &cYou have already selected a kit.'
+    SelectedOther: '%prefix% &cThe specified player has already selected a kit.'
+    Location: '%prefix% &cYou are not in the arena to perform this action.'
+    KitInvalid: '%prefix% &cYou cannot perform this action because you have a kit
+      selected.'
+    Cooldown: '%prefix% &cYou cannot select this kit for another %cooldown%.'
+    Offline: '%prefix% &cThe specified player is not online or not in an arena.'
+  Stats:
+    Message:
+    - '&7&m                                &r'
+    - ' '
+    - ' &6&lStats for&f %player%'
+    - ' &6Level&7: &f%level%&7/&f100'
+    - ' &6Experience&7: &f%experience%&7/&f100'
+    - ' &6Kills&7: &f%kills%'
+    - ' &6Deaths&7: &f%deaths%'
+    - ' '
+    - '&7&m                                &r'

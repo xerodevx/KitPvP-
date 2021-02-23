@@ -1,0 +1,21 @@
+# SCOREBOARD FILE - Configure the look of the Scoreboard.
+Scoreboard:
+  General:
+    Title: '&0     &6&r&lKitPvP     &0'
+    Enabled: false
+  Lines:
+  - '&7&l&m------------------'
+  - '&6&lStats'
+  - '&fName: &6%player%'
+  - '&fRank: &6%vault_rank_capital%'
+  - '&fKills: &6%kills%'
+  - '&fDeaths: &6%deaths%'
+  - '&fK/D Ratio: &6%kd%'
+  - '&7&l&m------------------'
+  - '&6&lLevel'
+  - '&fLevel: &6%level%&f/&6%max_level%'
+  - '&fExperience: &6%xp%&f/&6%max_xp%'
+  - '&7&l&m------------------'
+  - '&fKill Streak: &6%streak%&f Kills'
+  - '&7&l&m------------------'
+  - '&7hygon.org'

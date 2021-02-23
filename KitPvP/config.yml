@@ -1,0 +1,154 @@
+Items:
+  Kits:
+    Enabled: true
+    Name: '&6Kit Selector &f(Right Click)'
+    Item: CHEST
+    Slot: 4
+    Menu: true
+    Commands:
+      Commands:
+      - 'console: All commands in this plugin have PlaceholderAPI support'
+      - 'console: This command is run from the console, you can use %player%'
+      - 'player: This command is run from the player, you can use %player%'
+      Enabled: false
+  Leave:
+    Enabled: true
+    Name: '&aReturn to Hub &7(Right Click)'
+    Item: WATCH
+    Slot: 8
+    BungeeCord:
+      Server: Hub
+      Enabled: true
+    Commands:
+      Commands:
+      - 'console: All commands in this plugin have PlaceholderAPI support'
+      - 'console: This command is run from the console, you can use %player%'
+      - 'player: This command is run from the player, you can use %player%'
+      Enabled: false
+Combat:
+  HitSound:
+    Sound: BLAZE_HIT
+    Pitch: 1
+    Enabled: true
+  ArrowHit:
+    Message: '%prefix% &f%player% &6is on &c%health%&7.'
+    Enabled: true
+  ArrowReturn:
+    ItemName: '&6Returnable&f Arrow'
+    NoSpace: '%prefix% &cYou must have at least one slot open in your inventory for
+      you to receive your arrow for your successful shot.'
+    Enabled: true
+Kill:
+  Commands:
+    Commands:
+    - 'console: cc give Physical kill 1 %killer%'
+    Enabled: true
+Death:
+  Title:
+    Title: '&6&lYOU&f&l DIED!'
+    Subtitle: '&fYou will respawn in &6%seconds%&f seconds.'
+    Time: 5
+    Message: '%prefix% &6Respawning...'
+  Sound:
+    Sound: AMBIENCE_THUNDER
+    Pitch: 1
+    Enabled: false
+  Commands:
+    Commands:
+    - 'console: All commands in this plugin have PlaceholderAPI support'
+    - 'console: These commands are run by the console, you can use the %victim% variable
+      for the player who died'
+    - 'player: These commands are run by the player, you can use the %victim% variable
+      for the player who died'
+    Enabled: false
+  Messages:
+    Player: '%prefix% &f%victim% &6was killed by &f%killer% &7(&c%killer_health%&7).'
+    Shot: '%prefix% &f%victim% &6was shot by &f%killer% &7(&c%killer_health%&7).'
+    Fall: '%prefix% &f%victim% &6fell to their doom.'
+    Void: '%prefix% &f%victim% &6died from the void.'
+    Fire: '%prefix% &f%victim% &6died from fire.'
+    Explosion: '%prefix% &f%victim% &6blew up.'
+    Unknown: '%prefix% &f%victim% &6died.'
+    Enabled: true
+Respawn:
+  Commands:
+    Commands:
+    - 'console: All commands in this plugin have PlaceholderAPI support'
+    - 'console: These commands are run by the console, you can use the %player% variable
+      for the player name'
+    - 'player: These commands are run by the player, you can use the %player% variable
+      for the player name'
+    Enabled: false
+GiveSoupOnKill:
+  Amount: 1
+  NoSpace: '%prefix% &f%amount%&6 soups could not be added to your full inventory.'
+  Delay: 0
+  Enabled: true
+PlayerTracker:
+  Tracker: '&6Player Tracker'
+  Message: '&f&lTarget: &c%nearestplayer% &6&lDistance: &f%distance%'
+  NoneOnline: '&fNo Players Online'
+  TrackBelowY: 128
+Soups:
+  Name: '&6Regenerative Soups &f(Right Click)'
+  RegenAmount: 6
+  RemoveAfterUse: true
+  Lore:
+  - '&7Use this item to regain health.'
+  Sound: EAT
+  Pitch: 1
+  Enabled: true
+TNT:
+  Name: '&6Throwable TNT &f(Right Click)'
+  Enabled: true
+Commands:
+  Alias:
+    Spawn: true
+    Kit: true
+    Kits: true
+    Stats: true
+Storage:
+  Type: YAML
+  MySQL:
+    Host: planetgallium.com
+    Database: kitpvp
+    Table: kitpvp_userdata
+    Port: 3306
+    Username: walrus
+    Password: supersecretpassword
+Arena:
+  ClearPotionEffectsOnJoin: true
+  ClearInventoryOnJoin: true
+  ClearInventoryOnLeave: false
+  ClearInventoryOnRespawn: true
+  ClearInventoryOnKit: true
+  ClearKitOnCommandSpawn: true
+  PreventBlockBreaking: true
+  PreventBlockPlacing: true
+  PreventHunger: true
+  PreventItemDropping: true
+  PreventItemDurabilityDamage: false
+  PreventChestOpen: true
+  PreventFallDamage: false
+  PreventDeathDrops: true
+  KeepWeatherAtSunny: true
+  GiveItemsOnClear: true
+  GiveItemsOnRespawn: true
+  GiveItemsOnJoin: true
+  NoKitProtection: true
+  FancyDeath: true
+  ResetKillStreakOnLeave: true
+  ToSpawnOnJoin: true
+  DeathParticles: true
+Spawn:
+  Time: 5
+  Enabled: true
+Arenas:
+  Spawn:
+    world:
+      World: world
+      X: 0
+      Y: 79
+      Z: -7
+      Yaw: -179.29901
+      Pitch: 12.433531
